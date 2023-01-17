@@ -1,0 +1,23 @@
+body{
+    background-color:rgb(209, 217, 121);
+}
+.title{
+   
+    text-align: center;
+}
+.description{
+    
+  text-align: center;
+}
+.pic{
+    border: solid orange;
+    height: 350px;
+    margin-left: 40%;
+    border-radius: 15px ;
+}
+.ing{
+    margin-left: 40%;
+}
+.text{
+    margin-left:40%;
+}

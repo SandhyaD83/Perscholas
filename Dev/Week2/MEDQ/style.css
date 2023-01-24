@@ -1,0 +1,143 @@
+/* Desktop----------------- */
+@media (max-width: 2000px) {
+    body {
+      background-color: white;
+    }
+    .navBar{
+        border:solid white;
+        height:50px;
+        display:flex;
+        justify-content: space-evenly;
+      }
+    
+      .hidden{
+        border:solid red;
+        width:25%;
+        display:none;
+      }
+      .logoContainer{
+        border:solid black;
+        width:25%;
+        display:block;
+      }
+      .themeContainer{
+        border:solid lime;
+        width:25%;
+        display:block;
+      }
+      .optionsContainer{
+        border:solid orange;
+        width:25%;
+        display:block;
+      }
+  }
+/* MidSize---------------- */
+  @media (max-width: 1280px) {
+    body {
+      background-color: navy;
+    }
+    .navBar{
+        border:solid white;
+        height:50px;
+        display:flex;
+        justify-content: space-evenly;
+      }
+    
+      .hidden{
+        border:solid red;
+        width:25%;
+        display:none;
+      }
+      .logoContainer{
+        border:solid black;
+        width:25%;
+        display:block;
+      }
+      .themeContainer{
+        border:solid lime;
+        width:25%;
+        display:block;
+      }
+      .optionsContainer{
+        border:solid orange;
+        width:25%;
+        display:block;
+      }
+  }
+/* mobile----------------- */
+  @media (max-width: 680px) {
+    body {
+      background-color: white;
+    }
+    .navBar{
+        border:solid white;
+        height:50px;
+        display:flex;
+        justify-content: space-evenly;
+      }
+    
+      .hidden{
+        /*border:solid red;*/
+        width:25%;
+        display:flex;
+        justify-content: space-evenly;
+      }
+      .logoContainer{
+        /*border:solid red;*/
+        width:25%;
+        display:block;
+      }
+      .themeContainer{
+        /*border:solid lime;*/
+        width:25%;
+        display:none;
+      }
+      .optionsContainer{
+        /*padding-left: 20px;*/
+       /* border:solid orange;*/
+        width:25%;
+        display:flex;
+        justify-content: space-evenly;
+      }
+      
+  }
+.icon1{
+  /*border :solid yellow;*/
+  width:20%;
+  height:90%;
+}
+.icon2{
+  /*border :solid yellow;*/
+  width:20%;
+  height:90%;
+}
+.microsoft{
+ /* border :solid yellow;*/
+  width:100%;
+  height:90%;
+}
+.icon3{
+  /*border :solid yellow;*/
+  width:40%;
+  height:90%;
+}
+.icon4{
+  /*border :solid yellow;*/
+  width:40%;
+  height:90%;
+}
+
+.block1{
+ border:solid blue;
+  width:50%;
+  height:90%;
+
+}
+.block2{
+  
+  border:solid black;
+  width:50%;
+  height:90%;
+  display:flex;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,63 @@
+body{
+    background-color: red
+}
+.navContainer{
+   /*border:solid blue;*/
+   
+   margin: 1em;
+   display:flex;
+   justify-content: space-evenly;
+}
+.mainContainer{
+    border:solid green;
+    height: 32vh;
+    margin: 1em;
+    text-align: center;
+    padding:1em;
+    font-size:18px;
+
+}
+.profileContainer{
+    /*border:solid orange;*/
+    height: 32vh;
+    margin:1em;
+    display:flex;
+   /* justify-content: space-around;*/
+}
+.bottomContainer{
+    border:solid red;
+    height: 32vh;
+    margin:1em;
+}
+.profilePic:hover{
+  /* border:solid purple;*/ 
+ 
+  background-color:peru ;
+  transition: 3s;
+}
+.description{
+    border:double salmon;
+    border-width: 6px;
+    border-radius: 22px;
+    width:55%;
+    padding:1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    text-align:center;
+}
+.mickey{
+ height:100%;
+}
+.currentTitle{
+border:solid white;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+}
+.btnTop{
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border:solid red;
+    border-radius: 22px;
+    background-color: blue;
+    color:yellow
+}

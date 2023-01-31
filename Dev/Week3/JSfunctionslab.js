@@ -69,3 +69,21 @@ function reverseString(str) {
   return str2.join("");
 }
 console.log (reverseString("sandhya"));
+/*8. Define a function, as a function expression, longestStringInArraythat takes an array of strings as an argument and returns the length of the longest string.*/
+
+ function longestStringInArray(strArray){
+     let l1= strArray[0].length;
+      let s= strArray[0];
+      for(i=1;i<strArray.length;i++){
+        let l2= strArray[i].length;
+        if(l2>l1){
+          s=strArray[i];
+          l1=l2;
+        }
+      }
+      return s;
+    }
+console.log(longestStringInArray(["mon","tues","wed","thursday"]));
+
+
+

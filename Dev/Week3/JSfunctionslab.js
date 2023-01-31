@@ -81,7 +81,7 @@ console.log (reverseString("sandhya"));
           l1=l2;
         }
       }
-      return s;
+      return l1;
     }
 console.log(longestStringInArray(["mon","tues","wed","thursday"]));
 

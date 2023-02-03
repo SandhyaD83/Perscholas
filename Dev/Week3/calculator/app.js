@@ -67,9 +67,9 @@ function getResult(){
        let text= document.querySelector('.textBox').innerHTML
         let char=text.split("")
         let charlength = (char.length)-1
-        let backtext= char[0]
-        for(let j=1;j<charlength;j++){
-        backtext += char[j]
+        let backtext= ""
+        for(let j=0;j<charlength;j++){
+        backtext += char[0]
         }
      let y = document.querySelector('.textBox')
         y.innerHTML = backtext

@@ -1,5 +1,5 @@
 html, body {
-  
+   
     height: 100%;
     margin: 0;
     padding: 0;
@@ -63,8 +63,8 @@ height:70%;
 .input-text{
     border:none;
     height: 100%;
- width:90%;
- background-color: #e2e4e6;
+   width:90%;
+   background-color: #e2e4e6;
  
     
 }
@@ -175,13 +175,13 @@ height:70%;
    width:150px;
    }
    .textContainer1{
-    
+    position:relative;
     background-color: #efefef;
     height:800px;
     padding-top:60px;
    }
    .text1{
-     margin-left:200px;
+    margin-left:200px;
      font-family: HelveticaNeueW01-Thin,Helvetica,Helvetica,Arial,sans-serif;
      font-size: 40px;
      font-weight:80;
@@ -190,8 +190,10 @@ height:70%;
      font-style: inherit;
    }
    .paragraph{
+  
     color: #5f6a72;
     margin-left:200px;
+    margin-right: 200px;
     line-height: 2.2vh;
     font-family: HelveticaNeueW01-55Roma,Helvetica,Helvetica,Arial,sans-serif;
      font-size:12px;
@@ -209,8 +211,7 @@ height:70%;
     justify-content: space-between;
    }
    .textContainer2-paraGraph{
- 
-    width:50%;
+     width:50%;
    }
    .text2{
     margin-left:200px;
@@ -220,6 +221,15 @@ height:70%;
     color: #5f6a72;
     line-height: 1.3;
     font-style: inherit;
+   }
+   .paragraph1{
+  
+    color: #5f6a72;
+    margin-left:200px;
+    line-height: 2.2vh;
+    font-family: HelveticaNeueW01-55Roma,Helvetica,Helvetica,Arial,sans-serif;
+     font-size:12px;
+     
    }
    .textContainer2-img{
     position: relative;

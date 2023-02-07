@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!----Rule #1 => Wireframe and PLAN!-->
+       <!----Rule #2 =>Everything must be in a container-->
+       <!----Rule #3 => observe the functionality---->
+       <!----Rule #4 Recognize Repeating Elements-->
+       <!--Border everything-->
+       <!---txtCaro--->
+     <!---navbar-->
+     <div class="navBar">
+        <div class="logoContainer">
+         <img src="https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png" alt="" class="logo">
+        </div>
+        <div class="leftContainer">
+          <ul class="options">
+             <li class="optList">DISNEY+</li>
+             <li class="optList">PARKS&TRAVEL</li>
+             <li class="optList">MOVIES</li>
+             <li class="optList">SHOP</li>
+             <li class="optList">MORE</li>
+          </ul>
+        </div>
+        <div class="rightContainer">
+           <div class="signIn"><a href="">Sign in</a></div>
+           <div class="search">
+            <input type="text" class="input-text" placeholder="Search">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbpreOPssWq5sdVNyHLUH6aL7SmnuyTTzp1NottG5ZOQ&s" alt="" class="magIcon">
+          </div>
+           
+
+        </div>
+     </div>
+       <!---topContainer--->
+       <div class="topContainer">
+        <div class="scrollContainer">
+        <marquee behaviour="scroll" direction="right"><h1 class="heading">Upcoming Movies 2023</h1></marquee>
+        </div>
+         <div class="image">
+          <img src="https://hips.hearstapps.com/hmg-prod/images/disney-movies-2023-ant-man-1673544979.jpeg?crop=0.973xw:0.822xh;0.00850xw,0.0644xh&resize=980:*" alt="" id="movie">
+          </div>
+         <div class="btns">
+           <button class="btn"  onclick="movieBox('btn1')">.</button>
+           <button class="btn"  onclick="movieBox('btn2')">.</button>
+           <button class="btn"  onclick="movieBox('btn3')">.</button>
+           <button class="btn"  onclick="movieBox('btn4')">.</button>
+
+         </div>
+
+       </div>
+       
+       <!---imagesContainer-->
+       <div class="imageContainer">
+        <img src="https://c8.alamy.com/comp/T7C69P/avengers-endgame-2019-directed-by-anthony-and-joe-russo-starring-bradley-cooper-brie-larson-and-chris-hemsworth-epic-conclusion-and-22nd-film-in-the-marvel-cinematic-universe-T7C69P.jpg" alt="" class="pic">
+        <img src="https://oyster.ignimgs.com/wordpress/stg.ign.com/2021/04/Shang-Chi-Poster-Marvel-720x1066.jpg?width=1280&fit=bounds&height=720&quality=20&dpr=0.05" alt="" class="pic">
+        <img src="https://m.media-amazon.com/images/M/MV5BZDYyMjI1OWQtYjhmMS00MmU4LWI1N2UtNzFlZGQ0MDE2ODEwXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_QL75_UY281_CR18,0,190,281_.jpg" alt="" class="pic">
+        <img src="https://upload.wikimedia.org/wikipedia/en/1/17/Mulan_%282020_film%29_poster.jpg" alt="" class="pic">
+        <img src="https://lumiere-a.akamaihd.net/v1/images/p_thorloveandthunder_639_593cb642.jpeg" alt="" class="pic">
+        <img src="https://mobimg.b-cdn.net/v3/fetch/f8/f843f9038db4b6570d20ec251f08ed92.jpeg" alt="" class="pic">
+        <img src="https://amc-theatres-res.cloudinary.com/v1650563809/amc-cdn/production/2/movies/66100/66056/Poster/p_800x1200_AMC_BlackWidow_072621.jpg" alt="" class="pic">
+       </div>
+       
+
+
+    <script src="app.js"></script>   
+     </body>

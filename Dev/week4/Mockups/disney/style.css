@@ -1,6 +1,6 @@
 body{
     height:400vh;
-    background-color:blanchedalmond;
+    background-color:lemonchiffon;
 }
 .navBar{
     height:60px;
@@ -68,7 +68,7 @@ body{
 .topContainer{
    /* border: solid;*/
     height:700px;
-    width:900px;
+    width:100%
     margin-left:250px;
   }
   .scrollContainer{
